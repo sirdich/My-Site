@@ -2,10 +2,22 @@ body {
   margin: 0;
 }
 
-div {
+.top {
   background-color: #a2dbfa;
 }
 
-h1 {
-  margin-top: 0;
+.middle {
+  background-color: #39a2db;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom {
+  background-color: #053742;
+  height: 200px;
+  width: 200px;
+}
+
+.under {
+  text-decoration: underline;
 }
