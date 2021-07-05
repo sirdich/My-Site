@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Roboto Slab", serif;
+  background-color: #e8f0f2;
 }
 h1 {
   font-size: 5.625em;
@@ -98,4 +99,47 @@ a {
 
 .subtitle {
   margin-top: 0px;
+}
+
+.btn {
+  background: #053742;
+  background-image: -webkit-linear-gradient(top, #053742, #a2dbfa);
+  background-image: -moz-linear-gradient(top, #053742, #a2dbfa);
+  background-image: -ms-linear-gradient(top, #053742, #a2dbfa);
+  background-image: -o-linear-gradient(top, #053742, #a2dbfa);
+  background-image: -webkit-gradient(to bottom, #053742, #a2dbfa);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #000000;
+  font-family: Garamond;
+  width: 260px;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #a2dbfa;
+  background-image: -webkit-linear-gradient(top, #a2dbfa, #053742);
+  background-image: -moz-linear-gradient(top, #a2dbfa, #053742);
+  background-image: -ms-linear-gradient(top, #a2dbfa, #053742);
+  background-image: -o-linear-gradient(top, #a2dbfa, #053742);
+  background-image: -webkit-gradient(to bottom, #a2dbfa, #053742);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
