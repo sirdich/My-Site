@@ -4,33 +4,80 @@ body {
   font-family: "Roboto Slab", serif;
 }
 h1 {
-  margin-top: 0;
+  font-size: 5.625em;
+  margin: 50px auto 0px auto;
   font-family: "Parisienne", cursive;
+  color: #053742;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  color: #053742;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #39a2db;
 }
-.top {
+
+a {
+  color: #39a2db;
+}
+.skills-img {
+  border-radius: 10px;
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.keyboard-img {
+  border-radius: 10px;
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.develop-title {
+  text-align: left;
+}
+
+.keyboard-title {
+  text-align: right;
+}
+
+.develop-descript {
+  clear: left;
+}
+.keyboard-descript {
+  clear: right;
+}
+
+.glasses-img {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.top-container {
   background-color: #a2dbfa;
   position: relative;
   padding-top: 100px;
+  line-height: 2;
 }
 
-.middle {
-  background-color: #39a2db;
-  height: 200px;
-  width: 200px;
+.skills {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
-.bottom {
-  background-color: #053742;
-  height: 200px;
-  width: 200px;
+.middle-container {
+}
+
+.skill-row {
+}
+
+.bottom-container {
 }
 
 .under {
@@ -47,4 +94,8 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.subtitle {
+  margin-top: 0px;
 }
